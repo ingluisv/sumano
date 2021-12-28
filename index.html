@@ -1,0 +1,159 @@
+<!DOCTYPE HTML>
+<html lang"es">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+    <link rel="stylesheet" href="estil.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <title>Sumano</title>
+    <meta charset="utf-8">
+   <script>
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyBfYV5wors9AO2J3ctGecAd53Yp9fjlUDg",
+  authDomain: "pruebaweb-c7f15.firebaseapp.com",
+  projectId: "pruebaweb-c7f15",
+  storageBucket: "pruebaweb-c7f15.appspot.com",
+  messagingSenderId: "412599318306",
+  appId: "1:412599318306:web:6fc3dadd280e43e223977b",
+  measurementId: "G-QRMB3MCCBQ"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+       </script>
+  </head>
+ 
+  <body>
+    <header>
+     <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+         <div class="navbar-header">
+         <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar">
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+             </button>
+         </div>
+      <div class="collapse navbar-collapse" id="navbar">
+          
+         <ul class="nav navbar-nav">
+            <li class=""><a href="#in">Inicio</a></li>
+            <li><a href="#grid">Productos</a></li>
+            <li><a href="#conoce">Conocenos</a></li>
+            <li><a href="#contact">Contacto</a></li>
+                    </ul>
+        </div>
+          </div>
+            </nav>
+      </header>
+     <!-- <div  class="nevo">
+          <select>
+              <option> </option>
+              <option>Reciente</option>
+              <option>Destacado</option>
+              </select>
+     
+      https://www.canva.com/design/DAEzI6mVnFY/watch </div>-->
+      <div style="position: relative; width: 100%; height: 0; padding-top: 100%;
+ padding-bottom: 18px; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
+ border-radius: 8px; will-change: transform; " id="in">
+  <iframe loading="lazy" style="position: absolute; width: 100%; height: 90%; top: 0; left: 0; border: none; padding: 0;margin: 0; "
+    src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAEzI6mVnFY&#x2F;watch?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
+  </iframe>
+</div>
+
+       <div class="cono" id="conoce">
+      <h3>Misión</h3>
+          <p>
+          Estar más cerca de la población para lleva hasta el lugar más retirado los materiales para la construcción de su casa.
+          </p>
+          <h3>Visión</h3>
+          <p>
+          En Ferretería Sumano lo más importante es comprender tus necesidades en herramientas y productos,
+ para ofrecerte la mejor solución en el menor tiempo posible, esta ha sido nuestra convicción 
+desde el primer día; brindar un servicio cordial y eficiente.
+Fusionamos los valores y experiencia de nuestro pasado con el empuje y la fuerza de las nuevas generaciones,
+ para hacer más eficientes las plataformas en las que estamos en contacto contigo.
+          </p>
+      </div>
+      <div>
+        <!-- Automatic Slideshow Images -->
+  <div class="mySlides w3-display-container w3-center" id="grid">
+    <img src="images/torni.jpg" style="width:90%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3>Tornillería</h3>
+      <p><b>Diferentes medidas estándar, nuevas medidas milimétricas</b></p>   
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="images/pesc.jpg" style="width:90%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3>Artículos de pesca</h3>
+      <p><b>De la marca Rapala,Storm, etc., diferentes tipos de pesca</b></p>    
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="images/herramient.jpg" style="width:50%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3>Ferretería</h3>
+      <p><b>Variedades en herramientas para electricidad, plomería, herrería, carpintería, etc.</b></p>    
+    </div>
+  </div>
+      </div>
+      <!-- The Contact Section -->
+  <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
+    <h2 class="w3-wide w3-center">CONTACTANOS</h2>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-col m6 w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker" style="width:30px"></i> Vega de Alatorre, Veracruz, Calle Francisco I. Madero #207<br>
+        <i class="fa fa-phone" style="width:30px"></i> Tel: 235 3270387<br>
+        <i class="fa fa-envelope" style="width:30px"> </i> Email: sumano_vega@hotmail.com<br>
+      </div>
+      <div class="w3-col m6">
+        <form action="/action_page.php" target="_blank">
+          <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+            </div>
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+            </div>
+          </div>
+          <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+          <button class="w3-button w3-black w3-section w3-right" type="submit">Enviar</button>
+        </form>
+      </div>
+    </div>
+  </div>
+   </body>
+       <script>
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 4000);    
+}
+</script>
+    <!-- inicia footer-->
+   <footer class="w3-container  w3-black">
+       <div>  
+           <a href="https://es-la.facebook.com/login/?next=https%3A%2F%2Fes-la.facebook.com%2FFerreteriaSumano%2Fposts%2F%3Fref%3Dpage_internal" class="fa fa-facebook" style="align-content: center;">Siguenos en Facebook
+           </a>
+           </div>
+       <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14993.826661140723!2d-96.6431574!3d20.0313061!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4c68e5e7d4f18380!2sFerreter%C3%ADa!5e0!3m2!1ses!2smx!4v1640482012427!5m2!1ses!2smx" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </footer>
+</html>
